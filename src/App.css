@@ -1,0 +1,269 @@
+
+body{
+     background-color: #FAFFFD;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+h1, h2 {
+    font-family: 'Yeseva One', cursive;
+    color: #0D052E;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2, 
+h3 {
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: bold;
+    color: #707070;
+}
+
+h4 {
+    color: #34285C;
+    font-size: 24px;
+}
+
+p {
+    color: #707070;
+    line-height: 30px;
+    letter-spacing: 0.0015em;
+}
+
+h3,
+h4,
+p,
+ul li,
+.btn,
+input::placeholder  {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Yeseva One', cursive;
+    color: #0D052E;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2, 
+h3 {
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: bold;
+    color: #707070;
+}
+
+h4 {
+    color: #34285C;
+    font-size: 20px;
+}
+
+p, 
+input::placeholder{
+    color: #707070;
+    line-height: 30px;
+    letter-spacing: 0.0015em;
+}
+
+
+h3,
+h4,
+p,
+ul li,
+.btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-image: linear-gradient(to left, #1BD7BA, #06ACED);
+    border: none;
+    border-radius: 0px 25px;
+    padding: 14px 46px;
+}
+
+.achivementCardActive{
+    background-image: linear-gradient(to left, #1BD7BA, #06ACED);
+    border: none;
+    border-radius: 0px 50px;   
+}
+.achivementCard{
+    border: none;
+    border-radius: 50px 0px;    
+}
+.btn:hover {
+    color: #FFFFFF;
+}
+
+.navbar .logo,
+.footer-logo {
+    width: 172px;
+    height: 118px;
+}
+
+.navbar .nav-link,
+.navbar .login-btn {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #263F44!important;
+}
+
+.navbar .login-btn:hover {
+    text-decoration: none;
+}
+
+.zoom:hover{
+    cursor: pointer;
+    background: #FFFFFF;
+    transition: .5s ease;
+    box-shadow: -1px 0px 20px 2px rgba(27, 215, 187, 0.253);
+    border-radius: 50px 0px;
+}
+
+.gradient-bg {
+    background-image: linear-gradient(to left, #1BD7BA, #06ACED);
+    box-shadow: -1px 0px 20px 2px rgba(27, 215, 187, 0.1);
+}
+
+.white-bg {
+    background-color: #FFFFFF;
+    box-shadow: -1px 0px 20px 2px rgba(27, 215, 187, 0.1);
+}
+
+.right-radius {
+    border-radius: 0px 50px;
+}
+
+.left-radius {
+    border-radius: 50px 0px;
+}
+
+.divider {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 1px;
+    background-image: linear-gradient(to left, #1BD7BA, #06ACED);
+}
+
+.pricing p,
+.pricing ul li,
+.footer ul li {
+    font-weight: 500;
+}
+
+.pricing-card,
+.subscribe-field {
+    box-shadow: -1px 0px 15px 2px rgba(102, 104, 103, 0.123);
+}
+
+.featured h3,
+.featured p {
+    color: #0f0f0f;
+}
+
+.featured {
+    border: 2px solid #3cedce;
+}
+
+.subscribe-field {
+    max-width: 800px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.subscribe .btn {
+    border-radius: 5px;
+}
+
+.footer ul li a {
+    color: #464646;
+}
+
+.footer ul li a:hover {
+    text-decoration: none;
+}
+
+.header{
+    background-image: url("../src/images/bannerBg.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.serviceIllustration{
+    background-image: url("../src/images/Path\ 74.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FAFFFD;
+}
+.bg-none{
+background-color: transparent !important;
+}
+
+.pricingIllustration{
+    background-image: url("../src/images/pricing.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FAFFFD;
+}
+.achivementIllustration{
+    background-color: #FAFFFD;
+}
+
+.card{
+    transform: scale(1.1) !important; 
+    transition: .5s ease;
+}
+
+.service {
+    background-image: url("../src/images/service-bg.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pricing {
+    background-image: url("../src/images/pricing-bg.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 540px){
+    h1 {
+        font-size: 34px;
+    }
+    
+    h2, 
+    h3 {
+        font-size: 27px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
