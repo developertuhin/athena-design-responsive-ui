@@ -1,5 +1,4 @@
 # Athena Design Responsive UI
-#Live site -- https://athena-design-team39.netlify.app/
 ## Features
    - Landing page of a design company.
    - One page react application.
